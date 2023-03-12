@@ -1,0 +1,124 @@
+.bg-grey {
+
+    background-color: #D9D9D9;
+}
+
+
+.fondo_inicio {
+    background-image: url('imagenes/fondos/inicio.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo_piratas {
+    background-image: url('imagenes/fondos/piratas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo_marines {
+    background-image: url('imagenes/fondos/marines.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.fondo_revolucionarios {
+    background-image: url('imagenes/fondos/revolucionarios.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo_recuerda {
+    background-image: url('imagenes/fondos/recuerda.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondo_quieneres {
+    background-image: url('imagenes/fondos/quieneres.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.celda_recuerda {
+    width: 12vh;
+    height: 12vh;
+    border: 0.3vh solid white;
+    color: black;
+}
+
+.oculto {
+    background-image: url('imagenes/black_answer.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.pareja0 {
+
+    background-image: url('imagenes/recuerdame/shanks.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+}
+
+.pareja1 {
+
+    background-image: url('imagenes/recuerdame/bonclay.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+}
+
+.pareja2 {
+
+    background-image: url('imagenes/recuerdame/vivi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+}
+
+.pareja3 {
+
+    background-image: url('imagenes/recuerdame/buggy.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+}
+
+.pareja4 {
+
+    background-image: url('imagenes/recuerdame/jinbe.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+}
+
+.pareja5 {
+
+    background-image: url('imagenes/recuerdame/bartolomeo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
+}
