@@ -37,6 +37,15 @@
     background-size: cover;
 }
 
+.fondo_peliculas {
+
+    background-image: url('imagenes/fondos/peliculas.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 .fondo_recuerda {
     background-image: url('imagenes/fondos/recuerda.jpg');
     background-repeat: no-repeat;
