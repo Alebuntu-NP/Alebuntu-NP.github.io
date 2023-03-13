@@ -5,13 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ONE PIECE</title>
-    <link href="bootstrap-5.3.0/css/bootstrap.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <script src="/bootstrap-5.3.0/js/bootstrap.bundle.js"></script>
+    <link href="../bootstrap-5.3.0/css/bootstrap.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <script src="../bootstrap-5.3.0/js/bootstrap.bundle.js"></script>
 
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
 </head>
 
-<body class="vh-100 fondo_inicio">
+<body class="vh-100 fondo_marines">
 
     <!-- Aqui ponemos los elementos del menu -->
     <header class="sticky-top" style="font-size: xx-large;">
@@ -36,18 +41,18 @@
                                     data-bs-toggle="dropdown" aria-expanded="false">PERSONAJES</a>
 
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu_desplegable1">
-                                    <li><a class="dropdown-item" href="piratas.html">Piratas</a></li>
-                                    <li><a class="dropdown-item" href="marines.html">Marines</a></li>
-                                    <li><a class="dropdown-item" href="revolucionarios.html">Revolucionarios</a>
+                                    <li><a class="dropdown-item" href="../piratas.html">Piratas</a></li>
+                                    <li><a class="dropdown-item" href="../marines.html">Marines</a></li>
+                                    <li><a class="dropdown-item" href="../revolucionarios.html">Revolucionarios</a>
                                     </li>
                                 </ul>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="peliculas.html">PELICULAS</a>
+                            <a class="nav-link" href="../peliculas.html">PELICULAS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="paginas_trailers/trailer0.html">TRAILERS</a>
+                            <a class="nav-link" href="trailer0.html">TRAILERS</a>
                         </li>
                         <li class="nav-item dropdown">
                             <ul class="navbar-nav">
@@ -56,8 +61,8 @@
                                     data-bs-toggle="dropdown" aria-expanded="false">JUEGOS</a>
 
                                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="menu_desplegable1">
-                                    <li><a class="dropdown-item" href="quieneres.html">¿QUIEN ERES?</a></li>
-                                    <li><a class="dropdown-item" href="recuerda.html">RECUERDA</a></li>
+                                    <li><a class="dropdown-item" href="../quieneres.html">¿QUIEN ERES?</a></li>
+                                    <li><a class="dropdown-item" href="../recuerda.html">RECUERDA</a></li>
                                 </ul>
                             </ul>
                         </li>
@@ -70,32 +75,46 @@
             </div>
         </nav>
     </header>
+
     <main class="min-vh-100  p-4">
         <div class="container-fluid col-10 p-4 bg-dark bg-opacity-75  text-white fs-2">
-            <h1 class="p-2">HISTORIA</h1>
+            <h1 class="p-2 text-center">TRAILERS</h1>
             <div class="row">
-                <div class="fs-2 col-12 col-lg-6  p-2">
-                    <p>
-                        One Piece es una serie de manga y anime creada por Eiichiro Oda en 1997.</p>
-                    <p> La historia
-                        sigue a Monkey D. Luffy, un joven con habilidades elásticas que se convierte en un pirata y
-                        busca el
-                        tesoro más grande del mundo
-                        conocido como "One Piece".
+
+
+                <div class="col-md-6">
+                    <p class="p-2 text-center">Proximamente One Piece LIVE ACTION en Netflix
                     </p>
                 </div>
+                <div class="col-md-6">
 
-                <div class=" col-12 col-lg-6  p-2">
-                    <img src="/imagenes/history.jpg" class="img-fluid" alt="...">
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/TmITlqgHvJ4"
+                        title="One Piece: Adelanto del set | Primer vistazo | Semana Geeked de Netflix" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
 
-
             </div>
-
             <br>
-        </div>
-    </main>
+            <nav aria-label="Trailers">
+                <ul class="pagination justify-content-center">
 
+                    <li class="page-item"><a class="page-link" href="trailer0.html">0</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="trailer1.html">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="trailer2.html">2</a>
+                    </li>
+                    <li class="page-item active" aria-current="page"><a class="page-link" href="trailer3.html">3</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="trailer4.html">4</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+
+    </main>
 
 
 </body>
